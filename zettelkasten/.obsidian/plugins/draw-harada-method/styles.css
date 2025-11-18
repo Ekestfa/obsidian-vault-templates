@@ -1,0 +1,57 @@
+/*
+
+This CSS file will be included with your plugin, and
+available in the app when your plugin is enabled.
+
+If your plugin does not need CSS, delete this file.
+
+*/
+
+table.harada{
+    width: 100%;
+    table-layout: fixed;
+    padding-bottom: 100%;
+    border-collapse: collapse;
+}
+
+td.cell{
+    width: 11%;
+    height: 100px;
+    overflow: hidden;
+    text-align: center;
+    border: 1px dotted rgb(63, 63, 63);
+    font-size: 20px;
+}
+
+td.left{
+    border-left: 3px solid black;
+}
+
+td.right{
+    border-right: 3px solid black;
+}
+
+td.top{
+    border-top: 3px solid black;
+}
+
+td.bottom{
+    border-bottom: 3px solid black;
+}
+
+td.action{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0); 
+}
+
+td.keyplan{
+    background-color: rgb(239, 255, 201);
+    color: rgb(0, 0, 0); 
+    font-size: 25px;
+}
+
+td.goal{
+    background-color: rgb(255, 229, 172);
+    color: rgb(0, 0, 0); 
+    font-size: 30px;
+}

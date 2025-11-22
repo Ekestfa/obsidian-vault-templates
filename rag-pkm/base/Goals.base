@@ -1,0 +1,16 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - '!file.name.contains("Template")'
+        - file.tags.contains("goal")
+    order:
+      - file.name
+      - file.ctime
+      - remark
+      - contents
+      - parent
+      - progress
+  - type: table
+    name: View

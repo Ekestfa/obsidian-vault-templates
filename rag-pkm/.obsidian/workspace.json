@@ -1,0 +1,253 @@
+{
+  "main": {
+    "id": "ccc4b4811e64756d",
+    "type": "split",
+    "children": [
+      {
+        "id": "17bae50036a64107",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c32e0091ad02d76a",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "base/Goals.base",
+                "viewName": "Table"
+              },
+              "icon": "lucide-table",
+              "title": "Goals"
+            }
+          },
+          {
+            "id": "b6dce224a0efafaf",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "base/Tasks.base",
+                "viewName": "Table"
+              },
+              "icon": "lucide-table",
+              "title": "Tasks"
+            }
+          },
+          {
+            "id": "87d94d599c456a5e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/The Content of Goal and Best Practices - Entrepreneur.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "The Content of Goal and Best Practices - Entrepreneur"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "356a5de03bbbfb9c",
+    "type": "split",
+    "children": [
+      {
+        "id": "1774074e1b6444bb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6653b52df7dbfa73",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "67385d4dcd638c46",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "7672918c8ccfe279",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      },
+      {
+        "id": "e62acfa61b752644",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "78f2c18f8e2e4389",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "clock",
+              "title": "Recent Files"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "42568fa6ea6fce3e",
+    "type": "split",
+    "children": [
+      {
+        "id": "e30c7f28bfc86c30",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c4bede44af43f800",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "ed83453de834b359",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "b78805a593a1c754",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "ac7154e4830d073f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "9dd5f2ccb7818f78",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "calendar"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-kanban:Create new board": false,
+      "project-browser:Open project browser": false
+    }
+  },
+  "active": "87d94d599c456a5e",
+  "lastOpenFiles": [
+    "resources/output/OBSS Open Source 101 Research.md",
+    "; INDEX.md",
+    "Creating a Goal Template Task.md",
+    "notes/Goal Defining with The Art of War Perspective.md",
+    "templates/Output Template.md",
+    "base/Tasks.base",
+    "templates/Task Template.md",
+    "templates/Goal Template.md",
+    "templates/LightRAG Query Template.md",
+    "resources/approved.png",
+    "resources/approved2.png",
+    "base/Goals.base",
+    "canvases",
+    "base/Projects.base",
+    "base/RAG Notes.base",
+    "notes/Alternatives of Defining Goal - Entrepreneur.md",
+    "notes/The Content of Goal and Best Practices - Entrepreneur.md",
+    "notes/Criteria of Goal Defining - Entrepreneur.md",
+    "Goal Belirleme.md",
+    "base/Untitled.md",
+    "scenarios",
+    "Goal Demo.md",
+    "Goal Demo.base",
+    "Untitled 1.base",
+    "base"
+  ]
+}

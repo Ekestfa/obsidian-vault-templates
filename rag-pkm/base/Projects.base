@@ -1,0 +1,10 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - '!file.name.contains("Template")'
+        - file.tags.contains("project")
+    order:
+      - file.name
+      - file.ctime

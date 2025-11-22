@@ -1,0 +1,16 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.tags.contains("rag")
+        - '!file.name.contains("Template")'
+    order:
+      - file.name
+      - progress
+      - query-db
+      - aliases
+      - file.ctime
+      - rag-supplier
+      - query-mode
+      - model-name

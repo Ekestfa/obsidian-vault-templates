@@ -1,3 +1,6 @@
+properties:
+  note.progress:
+    displayName: ✅
 views:
   - type: table
     name: Table
@@ -6,11 +9,11 @@ views:
         - '!file.name.contains("Template")'
         - file.tags.contains("goal")
     order:
+      - progress
       - file.name
       - file.ctime
       - remark
       - contents
       - parent
-      - progress
   - type: table
     name: View

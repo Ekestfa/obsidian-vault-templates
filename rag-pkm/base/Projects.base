@@ -1,3 +1,13 @@
+formulas:
+  Untitled: list(tags.contains("requirement") && project.contains(this.file.name))
+  Mvps: tags.contains("mvp") && parent.contains(this.file.name) && !progress
+properties:
+  formula.Untitled:
+    displayName: Requirements
+  note.progress:
+    displayName: ✅
+  formula.MVP:
+    displayName: asda
 views:
   - type: table
     name: Table
@@ -6,5 +16,11 @@ views:
         - '!file.name.contains("Template")'
         - file.tags.contains("project")
     order:
+      - progress
       - file.name
       - file.ctime
+      - remark
+      - release
+    sort: []
+    columnSize:
+      formula.Untitled: 122

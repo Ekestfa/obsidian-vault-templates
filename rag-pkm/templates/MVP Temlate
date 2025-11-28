@@ -1,0 +1,44 @@
+---
+tags:
+  - requirement
+aliases:
+created-at: "{{date}} {{time}}"
+project:
+parent:
+ID: MVP00x
+name: "{{title}}"
+contents:
+progress:
+remark:
+---
+*Links:* 
+# MVP{{date}}{{time}}-{{title}}
+## User Requirements (Kullanıcı Gereksinimleri)  
+```dataview
+TABLE WITHOUT ID
+	link(file.name, alias) as REQs,
+	created-at as "Created",
+	ID as ID,
+	name as Name,
+	moscow as MoSCoW,
+	acceptance-criteria as "Acceptance Criteria",
+	description as Description,
+	progress as Progress
+FROM #requirement 
+WHERE !contains(file.name, "Template") AND contains(parent, this.file.name)
+SORT created-at ASC
+```
+## Görevler
+Geliştirme sürecinde yapılacak işleri planlar.
+```dataview
+TABLE WITHOUT ID
+	progress as ✅,
+	link(file.name, alias) as Tasks,
+	due-date as "Due Date",
+	requirement as REQ,
+	created-at as "Created",
+	remark as Description
+FROM #requirement 
+WHERE !contains(file.name, "Template") AND contains(mvp, this.file.name)
+SORT created-at ASC
+```

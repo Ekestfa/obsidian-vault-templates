@@ -1,10 +1,26 @@
+properties:
+  note.progress:
+    displayName: ✅
 views:
   - type: table
     name: Table
     filters:
       and:
         - file.tags.contains("task")
-        - '!file.name.contains("Template")'
+        - '!file.name.contains("Task Template")'
     order:
+      - progress
+      - due-date
       - file.name
       - file.ctime
+      - remark
+      - parent
+      - project
+    sort:
+      - property: file.name
+        direction: ASC
+      - property: file.ctime
+        direction: ASC
+    columnSize:
+      file.name: 140
+      file.ctime: 127

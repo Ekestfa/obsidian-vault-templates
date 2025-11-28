@@ -1,0 +1,14 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.tags.contains("ask")
+    order:
+      - file.name
+      - file.tags
+      - query-db
+      - created-at
+    sort:
+      - property: created-at
+        direction: ASC
